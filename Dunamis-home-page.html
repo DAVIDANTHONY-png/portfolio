@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DunamisKafanchanHomePage</title>
+    <link rel="shortcut icon" href="dunamislogo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Dunamis-homepage.css">
+</head>
+<body>
+    <nav id="navbar">
+     <div class="links">
+       <img id="options" src="line3.png" alt="" style="width: 50px; height: 60px;">
+     </div>
+     <div class="logo">
+        <img src="dunamis kafanchan logo.png" alt="" style="width: 230px;" height="60px">
+     </div>
+     <div class="dots">
+        <img id="dots" src="dot2.png" alt="" style="width: 50px; height: 60px;">
+     </div>
+    </nav>
+    <section id="hlink" class="hlink hidden">
+      <img src="dunamis logo 2.jpg" alt="" style="width: 270px; left: 5%;" height="130px" >
+      <a class="homepage">Home</a>
+      <a class="services">About</a>
+      <a class="giving">Give online</a>
+      <a class="contact">Contact us</a> 
+      <a class="location">Branch Location</a>
+    </section>
+
+    <section id="left-link" class="left-link hidden">
+      <img src="dunamislogo2.jpg" alt="" style="height: 190px; width: 220px;">
+      <a>DHC Manual</a>
+      <a>SOD</a>
+      <a>Announcement</a>
+    </section>
+
+    <div id="left-body">
+      <a>Home</a>
+      <a>About</a>
+      <a>Online Giving</a>
+      <a>Location</a>
+      <a>SOD</a>
+      <a>DHC Manual</a>
+      <a>HQ Live</a>
+      <a>HotLines</a>
+      <a>Announcement</a>
+    </div>
+
+    <div class="image">
+      <img id="sodload" style="width: 30px; height: 35px; position: absolute; top: 70%; z-index: 2;" src="down-arrow2.png" alt="">
+    </div>
+
+    <section class="upload hidden" id="upload-form" style="background-color: white; z-index: 4; padding: 24px; width: 20%; height: 25%; position: absolute; top: 70%; left: 21%; border: 2px solid black; border-radius: 10px;">
+      <span style="font-size: 20px; font-weight: bold;">Please input code to upload SOD</span> <br> <br>
+      <strong><input style="font-size: 13px; color: black; border-radius: 5px; height: 30px; border: 2px solid rgb(10, 4, 61);" id="input" type="number"><button id="sod-upload" style="width: 35px; height: 30px; background-color: rgb(3, 3, 65); color: white; border-radius: 5px;">Go</button></strong>
+    </section>
+
+    <section class="home-start" style="position: absolute; top: 15%; width: 80%; text-align: center; right: 0;">
+      <h1 style="font-size: 60px; color: rgb(2, 2, 105);">Dunamis Intl Gospel Centre</h1>
+      <p style="font-size: 40px; font-weight: 900; font-style: italic;">kafanchan</p>
+      
+    </section>
+
+    <section id="SOD-input" class="hidden">
+     <h1 class="sod-text">SOD Upload</h1>
+     <br>
+     <br>
+     <br>
+     <br>
+    <strong><textarea name="" id="seed-of-destiny" cols="30" rows="20" placeholder="Paste SOD Here"></textarea><br><button type="button"><img style="width: 50px; height: 50px;" id="upload-btn" src="down-arrow2 - Copy.png" alt=""></button></strong>
+    </section>
+
+    <script src="/jquery-ui-1.13.3/external/jquery/jquery.js"></script>
+    <script src="Dunamis-homepage-jquery.js"></script>
+    <script src="Dunamis-homepage-javascript.js"></script>
+</body>
+</html>
